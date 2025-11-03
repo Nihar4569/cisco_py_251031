@@ -1,0 +1,2 @@
+Sorted List: ['abhi', 'nihar', 'zebra']
+Tuple: ('abhi', 'nihar', 'zebra')

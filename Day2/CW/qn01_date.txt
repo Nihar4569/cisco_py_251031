@@ -1,0 +1,2 @@
+List: ['All', 'the', 'best']
+Tuple: ('All', 'the', 'best')
