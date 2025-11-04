@@ -1,0 +1,2 @@
+2025-11-04 22:33:16,394 [INFO] Added product: [id=1, name=Apple Macbook M1, description=Macbook by apple, price=60000.0, stock=10, tags=Laptop, Tech, Apple]
+2025-11-04 22:33:25,173 [INFO] Found product: [id=1, name=Apple Macbook M1, description=Macbook by apple, price=60000.0, stock=10, tags=Laptop, Tech, Apple]

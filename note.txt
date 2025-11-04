@@ -1,0 +1,34 @@
+Dunder = Double UNDERscore
+(so “dunder method” means “double underscore method”).
+__init__, __str__, __len__, __add__, __eq__, __getitem__, etc.
+
+__init__ is read as “dunder init”.
+__str__ is read as “dunder str”.
+
+| Dunder Method | Called When...                  | Example                   |
+| ------------- | ------------------------------- | ------------------------- |
+| `__init__`    | Object is created               | `Employee(101, "Pratik")` |
+| `__str__`     | You print the object            | `print(e)`                |
+| `__len__`     | You use `len(object)`           | `len(e)`                  |
+| `__add__`     | You use `+` between two objects | `a + b`                   |
+| `__eq__`      | You use `==`                    | `a == b`                  |
+| `__getitem__` | You use `[]` indexing           | `obj[0]`                  |
+| `__del__`     | Object is destroyed             | (rarely used)             |
+
+
+
+Company = class (blueprint)
+
+comp = Company() → creates object, calls __init__ automatically
+
+self = reference to current object
+
+Use self to access/modify object attributes (self.employees)
+
+DAY 2
+-------------------------------------------------------------------------
+| Method     | Used by                  | Purpose        | Example Output                     |
+| ---------- | ------------------------ | -------------- | ---------------------------------- |
+| `__str__`  | `print(obj)`             | User-readable  | `Nihar - Engineer`                 |
+| `__repr__` | `repr(obj)`, lists, REPL | Debug-friendly | `Employee(1, 'Nihar', 'Engineer')` |
+

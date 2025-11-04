@@ -2,7 +2,7 @@
 Contains the Company class to manage a list of Employee objects.
 """
 from employee import Employee
-from db_config import write_employees,read_employees
+from Day3.CW.json_db import write_employees,read_employees
 
 class Company:
     """Class representing a company that manages employees."""
